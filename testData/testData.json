@@ -2,5 +2,10 @@
   "validUsername": "standard_user",
   "validPassword": "secret_sauce",
   "invalidUsername": "invalid_user",
-  "invalidPassword": "invalid_password"
+  "invalidPassword": "invalid_password",
+  "cartProducts": [
+    "Sauce Labs Backpack",
+    "Sauce Labs Bolt T-Shirt",
+    "Sauce Labs Onesie"
+  ]
 }

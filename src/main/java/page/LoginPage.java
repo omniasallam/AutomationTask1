@@ -12,7 +12,9 @@ public class LoginPage {
     public LoginPage(WebDriver driver){
         this.driver=driver;
     }
+
     public void setUserName(String userName){
+
         driver.findElement(userField).sendKeys(userName);
     }
     public void setPassword(String password){
@@ -23,6 +25,7 @@ public class LoginPage {
         return  new InventoryPage(driver);
     }
     public String getErrorMessage(){
-      return   driver.findElement(errorMessage).getText();
+
+        return   driver.findElement(errorMessage).getText();
     }
 }
